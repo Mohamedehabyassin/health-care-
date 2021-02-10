@@ -1,0 +1,220 @@
+@font-face {
+    font-family: mulish;
+    src: url(../fonts/static/Mulish-Regular.ttf);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: mulish;
+}
+
+.navbar {
+    padding: 70px 20px 20px 50px;
+    width: 90%;
+    display: flex;
+    height: 100px;
+}
+
+.logo {
+    width: 40%;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading {
+    display: flex;
+    width: 90%;
+}
+
+.heading .content {
+    width: 50%;
+    padding: 140px 60px 10px 120px;
+}
+
+.heading .content h1 {
+    font-size: 48px;
+}
+
+.heading .img {
+    padding: 40px;
+}
+
+.img-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    padding: 8px;
+    background: #458FF6;
+    border-radius: 55px;
+}
+
+.btn-grad {
+    margin: 10px;
+    padding: 10px 45px;
+    background: #458FF6;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    /* transition: 0.5s; */
+    background-size: 200% auto;
+    color: white;
+    display: block;
+}
+
+.main-service {
+    background-image: url("../img/background-section-service.png");
+    width: 90%;
+    background-repeat: no-repeat;
+}
+
+.services {
+    width: 90%;
+    margin: 0px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.services .s-text {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 65%;
+    margin: 0px auto 0px auto;
+}
+
+.s-text::after {
+    content: '';
+    height: 2px;
+    width: 2%;
+    background-color: #000;
+    position: absolute;
+    left: 46%;
+}
+
+.first-row {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+}
+
+.second-row {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+}
+
+.grid-content {
+    width: 25%;
+    text-align: center;
+    margin: 30px;
+    height: 260px;
+    padding: 10px;
+    box-shadow: rgb(219, 216, 216) 5px 10px 5px 10px;
+    border-radius: 30px;
+}
+
+.button-service {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.btn-service {
+    background: white;
+    padding: 10px 30px;
+    border: solid #458FF6;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: mulish;
+    /* transition: 0.5s; */
+    color: #458FF6;
+}
+
+.custmour-feedback {
+    width: 60%;
+    margin: 150px auto;
+    padding: 30px;
+    background-image: url(../img/background-group.png);
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+}
+
+.custmour-feedback .head {
+    margin-top: 30px;
+}
+
+.comment-section {
+    display: flex;
+}
+
+.content-11 {
+    float: left;
+    width: 50%;
+    padding-left: 40px;
+    margin: auto;
+    display: flex;
+}
+
+.content-11 img {
+    margin-right: 30px;
+    height: 90px;
+    width: 90px;
+    border-radius: 80px;
+}
+
+.content-12 {
+    float: right;
+    padding-right: 30px;
+    width: 50%;
+    margin: auto;
+}
+
+.articales {
+    width: 80%;
+    margin: 0px 200px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.articales .a-text {
+    text-align: center;
+}
+
+.articales .a-text::after {
+    content: '';
+    height: 2px;
+    width: 2%;
+    background-color: #000;
+    position: absolute;
+    left: 52%;
+}
+
+.row-articales {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.row-articales a {
+    color: #458FF6;
+    ;
+}
+
+.ar-grid-content {
+    width: 29%;
+    text-align: center;
+    margin: 30px;
+    height: 260px;
+    padding: 10px;
+    border-radius: 60px;
+}
